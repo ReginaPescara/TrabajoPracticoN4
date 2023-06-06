@@ -50,7 +50,8 @@ function esEnteroDeCuatroDigitos(valor) {
   
     // Intercambiar dígitos
     let temp = numeroEncriptado[0];
-    numeroEncriptado = numeroEncriptado.substr(2, 1) + numeroEncriptado.substr(1, 1) + numeroEncriptado.substr(3, 1) + temp;
+    numeroEncriptado = numeroEncriptado[3] + numeroEncriptado[2] + numeroEncriptado[1] + temp;
+
   
     let original = '';
   
